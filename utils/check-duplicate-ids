@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# run this in the theme svg folder! the script checks for duplicate svg id's
+# that begin with "dui*"
+
+for element in `grep -o -E "id=\"dui([a-z])(.*)\"" dui*.svg | cut -d "\"" -f 2 | sort | uniq`; do 
+    matches=`grep "\id=\"$element\"" *.svg | wc -l`;
+    if [ $matches != "1" ]; then
+	echo
+	echo "DUPLICATES of $element: $matches"
+
+	grep $element dui*.svg
+
+    else
+	echo -n "."
+    fi
+done; 
+echo

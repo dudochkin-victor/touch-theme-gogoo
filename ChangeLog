@@ -1,0 +1,53 @@
+Changes in 0.1.6
+
+e8e1e44 Update: battery icons
+facba91 Change quicklauncher icon to match grey app icon theme
+93fa85b Update to quicklaunchbar-menu- open and close, Added MCP category icons, removed dulicate quicklaunchbar menu icon
+673c2f7 Added Keyboard and MCP category icons, changed combobox indicator icon
+fdeaf35 Graphical asset fixes from Cyrene - red bar, duplicate graphics, etc.
+
+Changes in 0.1.5
+
+08a1934 added unread list graphics to ids.txt, Updates to Icons ~remove ID of quicklaunch chevron~, fix portrait shadow in navigationbar svg, fix duplicate graphics in new-items-counter/notifications
+
+Changes in 0.1.4
+
+6d05347 fixes to css to prevent crashes (slider handle bg properties in msliderstyle removed as cause of video and music application non-start)
+
+Changes in 0.1.3
+
+bc55e67 Updated with newly added asset IDs.
+36bf7ee Added wifi, network, battery, bluetooth icons, cleaned through svgs to remove any illustrator naming errors
+b24bd95 Updated ChangeLog and project.pro to version 0.1.3
+a5eae73 Added missing asset IDs.
+26adc8a Bumped package version.
+9be43c5 Merge CSS, graphics and icon updates from Cyrene.
+04010dd Added battery and tiny toolbar icons, updated media-navigationbar graphics for media apps
+4c1c224 Update to Icons, added 'unread' to meegotouch-list graphics
+f090fb3 Update to Navbar size in constants (9mm => 8mm), increased home and escape/back icons sizes, changeds slider graphic, polished and added new icons for clock, attachment, updated button (added combobox specific button) updated list and media nav/playbar graphics.  Added svg for statusmenu
+
+Changes in 0.1.2
+
+da65... Updated: ids.txt with new icon ids
+ce89... Update to Meego-Icons.svg: update to alerts, status, mini message indicators for people, add, delete, close app.  Changed color on back icon, added call attachment, sms common, clock, combobox arrow, drilldown arrow
+4494... removed top margin from mbanner, edited text color and placement in bubbileitem, edited placement and size of indicator icon, updated colorvalue.svg to match constants.ini file, added middle shadow to switch graphic
+c526... Added speechbubble graphics, enlarged switch, changed top-padding in text fields, changed icon size in comobox for indicator, added banner style for future deprecation of infobannerstyle and increased top margin to be below top toolbars, updated libmeegotouchviews.css to include mbanner and mbubbleitem
+4915... constants update (trying to remove bad characters)
+76db... Adding commonlayouts to core and edits to contentitemstyle.css to try and fix orange text problem, tweaks to switch and combobox.  Fix for combobx down state found in List svg graphic
+2c35... fix to libmeegotouchviews, small changes to switch combobox and button group spacing
+91ea... Text color change and tweaking (removing text- from color property), svg graphic tweaking
+e673... Switch tweaking
+17c2... Removed lockscreen css
+41f0... Added lockscreen css from sysui to test.  Tweaks to multiple svg and css
+332b... Continued tweaks and fixes to text coloring and graphic calls
+ab26... Massive update to CSS files across the board, mainly fixing text-color properties.  Removed some css files that were replicating Base with no noticeable modifications.  More tweaking on the switch
+75eb... Updates to slider, switch, progressindicator.  New constants added to constants.ini file.   Some changes to css to fix text color issues.  Deleted mcomboxstyle.css due to unnecessary conflicts.
+a4b5... Added lockscreen to meego svgs
+83b5... Added media-navigationbar (tentative graphic arrangement)
+e791... More svg upgrades
+0285... Update to prog-indicator, slider, switch.  Some changes to switch graphic usage
+e64f... Updates to multiple svgs, mostly topical treatment.  Added panel svg
+0fac... Added launcher spinner, removed quicklaunch (old file), updates to button, dialog, navigationbar, and splitbuton
+db75... Update quicklauncher
+995d... Update to list graphics
+b5f9... Update to match base and newest visual references from London (blue/charcoal coloring)
